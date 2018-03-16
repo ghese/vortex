@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1521133647,
-    'checksum' => '874b95b792a7e4d51af2501273239878',
+    'timestamp' => 1521147124,
+    'checksum' => 'dce4ebc2b4e6c5d650cfe3c83a93ac36',
     'files' => [
         'user/config' => [
             'media' => [
@@ -27,7 +27,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1521133647
+                'modified' => 1521135183
             ],
             'themes/antimatter' => [
                 'file' => 'user/config/themes/antimatter.yaml',
@@ -35,7 +35,7 @@ return [
             ],
             'themes/quark' => [
                 'file' => 'user/config/themes/quark.yaml',
-                'modified' => 1521118172
+                'modified' => 1521147124
             ]
         ],
         'system/config' => [
@@ -790,7 +790,7 @@ return [
                 'grid-size' => 'grid-lg',
                 'header-fixed' => true,
                 'header-animated' => true,
-                'header-dark' => false,
+                'header-dark' => true,
                 'header-transparent' => true,
                 'sticky-footer' => true,
                 'blog-page' => '/blog',

@@ -316,7 +316,7 @@ class __TwigTemplate_e6efa58cc1e86f8c811c19fef177e08c9429582eb29bc947446533fd5bb
         // line 89
         echo ($context["grid_size"] ?? null);
         echo "\">
-            <p><a href=\"http://getgrav.org\">Grav</a> was <i class=\"fa fa-code\"></i> with <i class=\"fa fa-heart-o pulse \"></i> by <a href=\"https://trilby.media\">Trilby Media</a>.</p>
+            <p>Have no fear, Kevin is Here!</p>
         </section>
     </section>
 ";
@@ -446,7 +446,7 @@ class __TwigTemplate_e6efa58cc1e86f8c811c19fef177e08c9429582eb29bc947446533fd5bb
 {% block footer %}
     <section id=\"footer\" class=\"section bg-gray\">
         <section class=\"container {{ grid_size }}\">
-            <p><a href=\"http://getgrav.org\">Grav</a> was <i class=\"fa fa-code\"></i> with <i class=\"fa fa-heart-o pulse \"></i> by <a href=\"https://trilby.media\">Trilby Media</a>.</p>
+            <p>Have no fear, Kevin is Here!</p>
         </section>
     </section>
 {% endblock %}

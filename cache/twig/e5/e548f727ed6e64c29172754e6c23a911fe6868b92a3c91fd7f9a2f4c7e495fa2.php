@@ -30,20 +30,20 @@ class __TwigTemplate_a4065e43cec9c022397216969a931555627ef5667498e4f53700ec5f0ae
         echo ($context["grid_size"] ?? null);
         echo "\">
         <div class=\"columns\">
-            <div class=\"column col-6 col-sm-12\">
-                <h1>";
+            <div class=\"column col-7 col-sm-12\">
+                <h2>";
         // line 8
         echo $this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "cont1", array()), "tittel", array());
-        echo "</h1>
+        echo "</h2>
                 ";
         // line 9
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "cont1", array()), "content", array()));
         foreach ($context['_seq'] as $context["_key"] => $context["para"]) {
             // line 10
-            echo "                <p>";
+            echo "                <p><h5>";
             echo $this->getAttribute($context["para"], "avsnitt", array());
-            echo "</p>
+            echo "</h5></p>
                 ";
         }
         $_parent = $context['_parent'];
@@ -51,7 +51,7 @@ class __TwigTemplate_a4065e43cec9c022397216969a931555627ef5667498e4f53700ec5f0ae
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 12
         echo "            </div>
-            <div class=\"column col-6 col-sm-12\">
+            <div class=\"float-right column col-5 col-sm-12\">
             <blockquote>
                 <h3>";
         // line 15
@@ -87,6 +87,7 @@ class __TwigTemplate_a4065e43cec9c022397216969a931555627ef5667498e4f53700ec5f0ae
         // line 25
         echo "            </div>
         </div>
+        <div class=\"divider\"></div>
     </section>
 </section>
 ";
@@ -123,13 +124,13 @@ class __TwigTemplate_a4065e43cec9c022397216969a931555627ef5667498e4f53700ec5f0ae
 <section id=\"modular-text\" class=\"section {{ page.header.class}} bg-gray\">
     <section class=\"container {{ grid_size }}\">
         <div class=\"columns\">
-            <div class=\"column col-6 col-sm-12\">
-                <h1>{{ page.header.cont1.tittel }}</h1>
+            <div class=\"column col-7 col-sm-12\">
+                <h2>{{ page.header.cont1.tittel }}</h2>
                 {% for para in page.header.cont1.content %}
-                <p>{{ para.avsnitt }}</p>
+                <p><h5>{{ para.avsnitt }}</h5></p>
                 {% endfor %}
             </div>
-            <div class=\"column col-6 col-sm-12\">
+            <div class=\"float-right column col-5 col-sm-12\">
             <blockquote>
                 <h3>{{ page.header.cont2.tittel }}</h3>
                 {% for para in page.header.cont2.content %}
@@ -143,6 +144,7 @@ class __TwigTemplate_a4065e43cec9c022397216969a931555627ef5667498e4f53700ec5f0ae
                 {% endif %}
             </div>
         </div>
+        <div class=\"divider\"></div>
     </section>
 </section>
 ", "modular/aboutrov.html.twig", "C:\\xampp\\htdocs\\user\\themes\\quark\\templates\\modular\\aboutrov.html.twig");
