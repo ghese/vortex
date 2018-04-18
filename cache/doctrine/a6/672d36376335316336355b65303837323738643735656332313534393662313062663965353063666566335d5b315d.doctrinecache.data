@@ -1,0 +1,28 @@
+1524648620
+a:2:{s:7:"content";s:723:"
+<section id="modular-text" class="section  bg-gray">
+    <section class="container grid-lg">
+        <div class="columns">
+            <div class="column col-6 col-md-12">
+                <p>nooby</p>
+<div id="map-616a6c5824" class="google-map" style="width: '100%'; height: 400px"
+     data-lat="47.949"
+     data-lng="21.724"
+     data-zoom="18"
+     data-scrollwheel="true"
+     data-draggable="1"
+     data-pancontrol="1"
+     data-iconurl="'/absolute/path/to/marker/icon.png'"
+     data-infowindow="
+<p><strong><em>Vortex NTNU</em></strong>
+Our Headquarters</p>
+">
+</div>
+
+            </div>
+            <div class="column col-6 col-md-12">
+                            </div>
+        </div>
+    </section>
+</section>
+";s:12:"content_meta";N;}

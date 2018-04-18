@@ -1,0 +1,30 @@
+1524645507
+a:2:{s:7:"content";s:842:"
+<section id="modular-text" class="section  bg-gray">
+    <section class="container grid-lg">
+        <div class="columns">
+            
+            
+    <h3>My Google Maps Demo</h3>
+    <div id="map" style="height:800px;width=100%;" class="column col-7 col-sm-12"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDY0EslAdUjI7QbTxykCn47PB7vgcBo39I&callback=initMap">
+    </script>
+        </div>
+        <div class="divider"></div>
+    </section>
+</section>
+";s:12:"content_meta";N;}

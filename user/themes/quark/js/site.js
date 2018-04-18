@@ -3,10 +3,15 @@ var isTouch = window.DocumentTouch && document instanceof DocumentTouch;
 function scrollHeader() {
     // Has scrolled class on header
     var zvalue = $(document).scrollTop();
-    if ( zvalue > 75 )
+    if ( zvalue > 75 ){
         $("#header").addClass("scrolled");
+        document.getElementById("thelogo").src = "/user/themes/quark/images/logo_d.png";
+    }
     else
+    {
         $("#header").removeClass("scrolled");
+        document.getElementById("thelogo").src = "/user/themes/quark/images/logo.png";
+    }
 }
 
 function parallaxBackground() {

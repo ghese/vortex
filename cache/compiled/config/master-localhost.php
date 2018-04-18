@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1521147124,
-    'checksum' => 'dce4ebc2b4e6c5d650cfe3c83a93ac36',
+    'timestamp' => 1524043276,
+    'checksum' => '470e4777df3177433e24ed5e00cfc9e4',
     'files' => [
         'user/config' => [
             'media' => [
@@ -12,6 +12,10 @@ return [
             'plugins/devtools' => [
                 'file' => 'user/config/plugins/devtools.yaml',
                 'modified' => 1521110454
+            ],
+            'plugins/google-maps' => [
+                'file' => 'user/config/plugins/google-maps.yaml',
+                'modified' => 1524043276
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -27,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1521135183
+                'modified' => 1523821499
             ],
             'themes/antimatter' => [
                 'file' => 'user/config/themes/antimatter.yaml',
@@ -35,25 +39,25 @@ return [
             ],
             'themes/quark' => [
                 'file' => 'user/config/themes/quark.yaml',
-                'modified' => 1521147124
+                'modified' => 1524006703
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1521108964
+                'modified' => 1523789668
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1521108964
+                'modified' => 1523789668
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1521108964
+                'modified' => 1523789668
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1521108964
+                'modified' => 1523789668
             ]
         ],
         'user/plugins' => [
@@ -77,6 +81,10 @@ return [
                 'file' => 'user/plugins/form/form.yaml',
                 'modified' => 1521109029
             ],
+            'plugins/google-maps' => [
+                'file' => 'user/plugins/google-maps/google-maps.yaml',
+                'modified' => 1524043253
+            ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
                 'modified' => 1521109032
@@ -88,6 +96,10 @@ return [
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
                 'modified' => 1521108986
+            ],
+            'plugins/shortcode-core' => [
+                'file' => 'user/plugins/shortcode-core/shortcode-core.yaml',
+                'modified' => 1524043246
             ]
         ]
     ],
@@ -200,6 +212,10 @@ return [
                     ]
                 ]
             ],
+            'google-maps' => [
+                'enabled' => true,
+                'google_api_key' => 'AIzaSyDY0EslAdUjI7QbTxykCn47PB7vgcBo39I'
+            ],
             'login' => [
                 'enabled' => true,
                 'built_in_css' => true,
@@ -266,6 +282,17 @@ return [
             'problems' => [
                 'enabled' => true,
                 'built_in_css' => true
+            ],
+            'shortcode-core' => [
+                'enabled' => true,
+                'active' => true,
+                'active_admin' => true,
+                'parser' => 'regex',
+                'custom_shortcodes' => NULL,
+                'fontawesome' => [
+                    'load' => true,
+                    'url' => '//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'
+                ]
             ]
         ],
         'media' => [

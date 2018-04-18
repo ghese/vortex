@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/system/languages/hr.yaml',
-    'modified' => 1521108969,
+    'modified' => 1523789669,
     'data' => [
         'INFLECTOR_UNCOUNTABLE' => [
             0 => 'oprema',
