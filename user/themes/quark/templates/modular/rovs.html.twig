@@ -33,7 +33,7 @@
 
 <div class="slick-slider float-right column col-5 col-sm-12">
     {% for slide in page.header.slides %}
-    <div><img src='{{ page.media[slide].url }}'/></div>
+    <div><img src='{{ page.media[page.header.media_order].url }}'/></div>
     {% endfor %}
   </div>
 
