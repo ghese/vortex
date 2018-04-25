@@ -123,12 +123,12 @@ years:
                         from: 'Hometown: Trondheim'
                     -
                         image: 2018-Benjamin.png
-                        name: 'Sven-Håkon Wold Sundt'
+                        name: 'Benjamin Askelund'
                         role: Electronics
                         from: 'Hometown: Trondheim'
                     -
                         image: 2018-Sander.png
-                        name: 'Line Katrin Granhaug Hansen'
+                        name: 'Sander Furre'
                         role: Electronics
                         from: 'Hometown: Stavanger'
             -
@@ -141,17 +141,17 @@ years:
                 description: 'The Mechanical group is responsible for developing a waterproof ROV frame construction. This includes 3D modeling, CFD, coordination of manufacturing, designing thrusters, customizing buoyancy elements, as well as integrating the thrusters and cameras to the overall design. The work also includes development of a capable manipulator arm, which is a critical part of the ROV - allowing us to complete the challenging tasks assigned in the competition.'
                 members:
                     -
-                        image: 2018-Andreas.png
+                        image: 2018-Torstein.png
                         name: 'Torstein Grindvik'
                         role: Mechanical
                         from: 'Hometown: Skodje'
                     -
-                        image: 2018-Benjamin.png
+                        image: 2018-Møller.png
                         name: 'Sindre Møller'
                         role: Mechanical
                         from: 'Hometown: Molde'
                     -
-                        image: 2018-Sander.png
+                        image: 2018-Morten.png
                         name: 'Morten Aadland Fossmark'
                         role: Mechanical
                         from: 'Hometown: Bergen'

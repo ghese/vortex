@@ -7,7 +7,7 @@
             <div class="column col-7 col-sm-12">
             <ul class="tab tab-block">
                 {% for item in page.header.items %}
-                    <li class="tab-item" onclick="openCity(event, '{{ item }}')">
+                    <li class="tab-item" style="cursor: pointer;" onclick="openCity(event, '{{ item }}')">
                     <a>{{ item }}</a>
                     </li>
                 {% endfor %}
@@ -33,7 +33,7 @@
 
 <div class="slick-slider float-right column col-5 col-sm-12">
     {% for slide in page.header.slides %}
-    <div><img src='{{ page.media[page.header.media_order].url }}'/></div>
+    <div><img src='{{ page.media[slide].url }}'/></div>
     {% endfor %}
   </div>
 

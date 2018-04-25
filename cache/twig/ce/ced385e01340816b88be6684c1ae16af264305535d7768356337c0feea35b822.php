@@ -71,29 +71,29 @@ class __TwigTemplate_4590e679979972da498b285e19c82a091d4d274034295736164eb490ecc
 ";
         // line 90
         $this->displayBlock('footer', $context, $blocks);
-        // line 97
+        // line 114
         echo "
     <div class=\"mobile-container\">
         <div class=\"overlay\" id=\"overlay\">
             <div class=\"mobile-logo\">
                 ";
-        // line 101
-        $this->loadTemplate("@images/logo.svg", "partials/base.html.twig", 101)->display($context);
-        // line 102
+        // line 118
+        $this->loadTemplate("@images/logo.svg", "partials/base.html.twig", 118)->display($context);
+        // line 119
         echo "            </div>
             <nav class=\"overlay-menu\">
                 ";
-        // line 104
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 104)->display(array_merge($context, array("tree" => true)));
-        // line 105
+        // line 121
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 121)->display(array_merge($context, array("tree" => true)));
+        // line 122
         echo "            </nav>
         </div>
     </div>
 
 ";
-        // line 109
+        // line 126
         $this->displayBlock('bottom', $context, $blocks);
-        // line 112
+        // line 129
         echo "
 </body>
 ";
@@ -320,21 +320,38 @@ class __TwigTemplate_4590e679979972da498b285e19c82a091d4d274034295736164eb490ecc
     public function block_footer($context, array $blocks = array())
     {
         // line 91
-        echo "    <section id=\"footer\" class=\"section bg-gray\">
+        echo "    <section id=\"footer\" class=\"section\" style=\"background-color: black;\">
         <section class=\"container ";
         // line 92
         echo ($context["grid_size"] ?? null);
         echo "\">
-            <p>Have no fear, Kevin is Here!</p>
+        <div class=\"column col-12 col-sm-12\">
+        <div class=\"column col-4 col-sm-12\" style=\"horizontal-align:center;display: inline-block;\">
+        <a src=\"\"><img style=\"width:100%; height:auto;\" src=\"/user/themes/quark/images/Statoil_Logo_Bottom.png\" /></a>
+        </div><br>
+        <div class=\"column col-2 col-sm-12\" style=\"vertical-align:top;display: inline-block;\">
+        <a src=\"\"><img style=\"width:100%; height:auto;\" src=\"/user/themes/quark/images/Blueye.png\" /></a>
+        </div>
+        <div class=\"column col-2 col-sm-12\" style=\"vertical-align:top;display: inline-block;\">
+        <a src=\"\"><img style=\"width:100%; height:auto;\" src=\"/user/themes/quark/images/FFU.png\" /></a>
+        </div>
+        <div class=\"column col-2 col-sm-12\" style=\"vertical-align:top;display: inline-block;\">
+        <a src=\"\"><img style=\"width:100%; height:auto;\" src=\"/user/themes/quark/images/Waterlinked.png\" /></a>
+        </div>
+        <div class=\"column col-4 col-sm-12\" style=\"vertical-align:top;display: inline-block;\">
+        <a src=\"\"><img style=\"width:100%; height:auto;\" src=\"/user/themes/quark/images/ntnu.png\" /></a>
+        </div>
+
+        </div>
         </section>
     </section>
 ";
     }
 
-    // line 109
+    // line 126
     public function block_bottom($context, array $blocks = array())
     {
-        // line 110
+        // line 127
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "js", array(0 => "bottom"), "method");
         echo "
@@ -353,7 +370,7 @@ class __TwigTemplate_4590e679979972da498b285e19c82a091d4d274034295736164eb490ecc
 
     public function getDebugInfo()
     {
-        return array (  338 => 110,  335 => 109,  326 => 92,  323 => 91,  320 => 90,  315 => 83,  311 => 82,  303 => 81,  300 => 80,  294 => 84,  291 => 83,  289 => 80,  285 => 79,  282 => 78,  279 => 77,  274 => 74,  270 => 54,  267 => 53,  264 => 52,  248 => 60,  242 => 58,  240 => 57,  236 => 55,  234 => 52,  224 => 47,  218 => 44,  215 => 43,  212 => 42,  206 => 40,  202 => 35,  199 => 34,  196 => 33,  193 => 32,  190 => 31,  187 => 30,  183 => 27,  180 => 26,  177 => 25,  174 => 24,  171 => 23,  168 => 22,  163 => 21,  158 => 20,  155 => 19,  152 => 18,  144 => 36,  142 => 30,  136 => 28,  134 => 18,  129 => 16,  125 => 15,  122 => 14,  120 => 13,  109 => 9,  106 => 8,  103 => 7,  97 => 112,  95 => 109,  89 => 105,  87 => 104,  83 => 102,  81 => 101,  75 => 97,  73 => 90,  68 => 87,  66 => 77,  62 => 75,  60 => 74,  57 => 73,  55 => 42,  50 => 40,  47 => 39,  45 => 7,  40 => 5,  37 => 4,  35 => 3,  33 => 2,  31 => 1,);
+        return array (  355 => 127,  352 => 126,  326 => 92,  323 => 91,  320 => 90,  315 => 83,  311 => 82,  303 => 81,  300 => 80,  294 => 84,  291 => 83,  289 => 80,  285 => 79,  282 => 78,  279 => 77,  274 => 74,  270 => 54,  267 => 53,  264 => 52,  248 => 60,  242 => 58,  240 => 57,  236 => 55,  234 => 52,  224 => 47,  218 => 44,  215 => 43,  212 => 42,  206 => 40,  202 => 35,  199 => 34,  196 => 33,  193 => 32,  190 => 31,  187 => 30,  183 => 27,  180 => 26,  177 => 25,  174 => 24,  171 => 23,  168 => 22,  163 => 21,  158 => 20,  155 => 19,  152 => 18,  144 => 36,  142 => 30,  136 => 28,  134 => 18,  129 => 16,  125 => 15,  122 => 14,  120 => 13,  109 => 9,  106 => 8,  103 => 7,  97 => 129,  95 => 126,  89 => 122,  87 => 121,  83 => 119,  81 => 118,  75 => 114,  73 => 90,  68 => 87,  66 => 77,  62 => 75,  60 => 74,  57 => 73,  55 => 42,  50 => 40,  47 => 39,  45 => 7,  40 => 5,  37 => 4,  35 => 3,  33 => 2,  31 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -456,9 +473,26 @@ class __TwigTemplate_4590e679979972da498b285e19c82a091d4d274034295736164eb490ecc
 
     </div>
 {% block footer %}
-    <section id=\"footer\" class=\"section bg-gray\">
+    <section id=\"footer\" class=\"section\" style=\"background-color: black;\">
         <section class=\"container {{ grid_size }}\">
-            <p>Have no fear, Kevin is Here!</p>
+        <div class=\"column col-12 col-sm-12\">
+        <div class=\"column col-4 col-sm-12\" style=\"horizontal-align:center;display: inline-block;\">
+        <a src=\"\"><img style=\"width:100%; height:auto;\" src=\"/user/themes/quark/images/Statoil_Logo_Bottom.png\" /></a>
+        </div><br>
+        <div class=\"column col-2 col-sm-12\" style=\"vertical-align:top;display: inline-block;\">
+        <a src=\"\"><img style=\"width:100%; height:auto;\" src=\"/user/themes/quark/images/Blueye.png\" /></a>
+        </div>
+        <div class=\"column col-2 col-sm-12\" style=\"vertical-align:top;display: inline-block;\">
+        <a src=\"\"><img style=\"width:100%; height:auto;\" src=\"/user/themes/quark/images/FFU.png\" /></a>
+        </div>
+        <div class=\"column col-2 col-sm-12\" style=\"vertical-align:top;display: inline-block;\">
+        <a src=\"\"><img style=\"width:100%; height:auto;\" src=\"/user/themes/quark/images/Waterlinked.png\" /></a>
+        </div>
+        <div class=\"column col-4 col-sm-12\" style=\"vertical-align:top;display: inline-block;\">
+        <a src=\"\"><img style=\"width:100%; height:auto;\" src=\"/user/themes/quark/images/ntnu.png\" /></a>
+        </div>
+
+        </div>
         </section>
     </section>
 {% endblock %}
