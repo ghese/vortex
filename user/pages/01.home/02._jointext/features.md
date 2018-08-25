@@ -6,7 +6,7 @@ title: jointext
 >Students are welcome to join us, keep an eye out for our announcements regarding the next recruitment period.
 
 ###Facebook
-![](http://i63.tinypic.com/fojdsg.png)
+![](http://i63.tinypic.com/fojdsg.png?resize=100,50) 
 
 Follow us on Facebook!
 
